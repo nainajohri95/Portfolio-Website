@@ -3,8 +3,6 @@ import "./Intro.css";
 import bg from "../../assets/NainaImg.png";
 import linkedInImg from "../../assets/linkedin-icon-png-16.jpg";
 import GithubImg from "../../assets/github-icon.jpg";
-import { FaLinkedin } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
 
 const Intro = () => {
   const openLinkedInProfile = () => {
@@ -18,9 +16,10 @@ const Intro = () => {
       <div className="introContent">
         <span className="hello">Hello,</span>
         <span className="introText">
-          I'm <span className="introName">Naina Johri</span> <br /> Front End
-          Developer
+          I'm <span className="introName">Naina Johri</span>
+          <br /> Front End Developer
         </span>
+
         <p className="introPara">
           I'm on a mission to craft exceptional web experiences that captivate
           and connect. With expertise as a Front-End Developer, I breathe life
@@ -35,6 +34,7 @@ const Intro = () => {
           >
             <img src={linkedInImg} alt="LinkedIn" className="logo" />
           </a>
+
           <a
             href="https://github.com/nainajohri95"
             target="_blank"

@@ -96,3 +96,16 @@
     font-size: 10vw;
   }
 }
+@media screen and (max-width: 480px) {
+  .bg {
+    right: auto;
+    left: 0;
+    top: 20px;
+    width: calc(100% + 20px);
+    height: auto;
+  }
+
+  .introContent {
+    width: 100%;
+  }
+}
