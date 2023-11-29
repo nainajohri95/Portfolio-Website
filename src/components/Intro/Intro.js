@@ -21,8 +21,9 @@ const Intro = () => {
         </span>
 
         <p className="introPara">
-          I'm on a mission to craft exceptional web experiences that captivate
-          and connect. With expertise as a Front-End Developer, I breathe life
+          I'm on a mission to craft exceptional web experiences that <br />
+          captivate and connect. With expertise as a Front-End Developer, I
+          breathe life <br />
           into digital landscapes, blending creativity and interactivity.
         </p>
 
@@ -44,7 +45,7 @@ const Intro = () => {
           </a>
         </div>
       </div>
-      <img src={bg} alt="" className="img" />
+      <img src={bg} alt="image" className="bg" />
     </section>
   );
 };

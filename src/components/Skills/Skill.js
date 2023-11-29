@@ -21,14 +21,8 @@ const Skills = () => {
           <div className="skillBarText">
             <h2> web Development</h2>
             <p>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>ReactJS</li>
-                <li>Node.JS(Basic)</li>
-                <li>Express.JS(Basic)</li>
-              </ul>
+              Having knowledge of HTML,CSS, JavaScript, ReactJS and some basic
+              knowledge of Node.js and Express.js.
             </p>
           </div>
         </div>
@@ -37,7 +31,11 @@ const Skills = () => {
           <img src={java} alt="java" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Java Development with DSA</h2>
-            <p>some content</p>
+            <p>
+              Skilled in Java and making sense of Data Structures and Algorithms
+              turning code into practical solutions with simplicity and
+              precision.
+            </p>
           </div>
         </div>
 
