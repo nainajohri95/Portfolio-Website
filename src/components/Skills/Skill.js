@@ -45,8 +45,8 @@ const Skills = () => {
             <h2>Soft Skills</h2>
             <p>
               <ul>
-                <li>TeamWork</li>
-                <li>Time Managment</li>
+                <li>Networking</li>
+                <li>Time managment</li>
                 <li>Communication</li>
               </ul>
             </p>
