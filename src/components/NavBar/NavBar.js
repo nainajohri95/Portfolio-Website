@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assets/n logo.png";
 import "./NavBar.css";
 import { Link } from "react-scroll";
@@ -6,6 +6,7 @@ import contactImg from "../../assets/contact.png";
 import menu from "../../assets/menu.png";
 
 const NavBar = () => {
+  const [showMenu, setshowMenu] = useState(false);
   return (
     <nav className="navbar">
       <img src={logo} alt="Logo" className="logo" />
@@ -77,8 +78,13 @@ const NavBar = () => {
       </button>
       {/* //.................BergerMenu.................. */}
 
-      <img src={menu} alt="Menu" className="mobMenu" />
-      <div className="navMenu">
+      <img
+        src={menu}
+        alt="Menu"
+        className="mobMenu"
+        onClick={() => setshowMenu(!showMenu)}
+      />
+      <div className="navMenu" style={{ display: showMenu ? "flex" : "none" }}>
         <Link
           activeClass="active"
           to="intro"
@@ -87,6 +93,7 @@ const NavBar = () => {
           offset={-100}
           duration={500}
           className="Listitem"
+          onClick={() => setshowMenu(false)}
         >
           Home
         </Link>
@@ -99,6 +106,7 @@ const NavBar = () => {
           offset={-50}
           duration={500}
           className="Listitem"
+          onClick={() => setshowMenu(false)}
         >
           About
         </Link>
@@ -111,6 +119,7 @@ const NavBar = () => {
           offset={-50}
           duration={500}
           className="Listitem"
+          onClick={() => setshowMenu(false)}
         >
           Projects
         </Link>
@@ -120,6 +129,7 @@ const NavBar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="Listitem resume"
+          onClick={() => setshowMenu(false)}
         >
           Resume
         </a>
@@ -132,6 +142,7 @@ const NavBar = () => {
           offset={-100}
           duration={500}
           className="Listitem"
+          onClick={() => setshowMenu(!showMenu)}
         >
           Contact
         </Link>

@@ -7,7 +7,7 @@ import WeatherApp from "../../assets/WeatherApp.png";
 const Projects = () => {
   return (
     <section id="works">
-      <span className="heading">My Projects</span>
+      <h2 className="heading">My Projects</h2>
       <div className="projects">
         <div className="project1">
           <div className="projectTitle">WeatherApp</div>
