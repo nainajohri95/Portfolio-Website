@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-      Copyright &#169; 2023 Naina Johri. All right reserved.
+      &#169; Copyright 2023. Developed by Naina Johri
     </footer>
   );
 };
