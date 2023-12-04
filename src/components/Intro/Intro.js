@@ -1,17 +1,10 @@
 import React from "react";
 import "./Intro.css";
-// import bg from "../../assets/NainaImg.png";
 import bg from "../../assets/NainaImg.png";
 import linkedInImg from "../../assets/linkedin-icon-png-16.jpg";
 import GithubImg from "../../assets/github-icon.jpg";
 
 const Intro = () => {
-  const openLinkedInProfile = () => {
-    window.open("https://www.linkedin.com/in/naina-johri/", "_blank");
-  };
-  const openGitHubProfile = () => {
-    window.open("https://github.com/nainajohri95", "_blank");
-  };
   return (
     <section id="intro">
       <div className="introContent">
@@ -32,6 +25,7 @@ const Intro = () => {
           <a
             href="https://www.linkedin.com/in/naina-johri/"
             target="_blank"
+            rel="noreferrer"
             className="logo-link"
           >
             <img src={linkedInImg} alt="LinkedIn" className="logo" />
@@ -41,12 +35,13 @@ const Intro = () => {
             href="https://github.com/nainajohri95"
             target="_blank"
             className="logo-link"
+            rel="noreferrer"
           >
             <img src={GithubImg} alt="GitHub" className="logo" />
           </a>
         </div>
       </div>
-      <img src={bg} alt="image" className="bg" />
+      <img src={bg} alt="" className="bg" />
     </section>
   );
 };
