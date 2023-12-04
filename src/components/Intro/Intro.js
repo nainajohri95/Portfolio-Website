@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+// import bg from "../../assets/NainaImg.png";
 import bg from "../../assets/NainaImg.png";
 import linkedInImg from "../../assets/linkedin-icon-png-16.jpg";
 import GithubImg from "../../assets/github-icon.jpg";
