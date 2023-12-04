@@ -48,7 +48,7 @@ const NavBar = () => {
         </Link>
 
         <a
-          href="https://drive.google.com/file/d/1iUS0DtC14xeavlRrU0aFpvs5eThdTlK1/view?usp=sharing"
+          href="https://drive.google.com/file/d/1qTX_1CPXGKPQQx8Ag_egOQOCddRcA6UQ/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           className="menuitem resume"
