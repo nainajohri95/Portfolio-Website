@@ -9,7 +9,7 @@ const Projects = () => {
     <section id="works">
       <h2 className="heading">My Projects</h2>
       <div className="projects">
-        <div className="project1">
+        <div className="projectCard">
           <div className="projectTitle">WeatherApp</div>
           <img src={WeatherApp} alt="" className="projectImg" />
           <p className="projectDesc">
@@ -26,7 +26,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="project1">
+        <div className="projectCard">
           <div className="projectTitle">TodoList</div>
           <img src={TodoList} alt="" className="projectImg" />
           <p className="projectDesc">
@@ -36,17 +36,7 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="project1">
-          <div className="projectTitle">Portfolio Website</div>
-          <img src="" alt="" className="projectImg" />
-          <p className="projectDesc">
-            some text <br />
-            Technology - ReactJS, CSS and JavaScript. <br />
-            <a href="">Live Link</a>
-          </p>
-        </div>
-
-        <div className="project1">
+        <div className="projectCard">
           <div className="projectTitle">WebPiano</div>
           <img src={WebPiano} alt="" className="projectImg" />
           <p className="projectDesc">
